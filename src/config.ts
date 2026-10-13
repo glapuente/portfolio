@@ -1,38 +1,30 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
-  accentColor: "#1d4ed8",
+  name: "Guillermo Lapuente",
+  title: "Data Engineer @ Lookiero Outfittery Group",
+  description: "Portfolio website of Guillermo Lapuente",
+  accentColor: "#34bdc4",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "glapuentevalea@gmail.com",
+    linkedin: "https://www.linkedin.com/in/guillermo-lapuente-valea-23629812a/",
+    github: "https://github.com/glapuente",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "I'm a Basque Data Engineer who lives by music, loves traveling and spends most of his time building scalable data pipelines. I'm currently working from home but in the past I've traveled the world in industrial sites deploying data capturing systems or in offices building awesome stuff.",
+  skills: ["Python", "PySpark", "Databricks", "Terraform"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Multi-cloud analytics platform",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "This was the final project of my Master's thesis in which I deployed several services in different cloud providers as a proof of concept for analyzing press data in a distributed manner. The infrastructure was managed using DevOps tooling.",
+      link: "https://github.com/glapuente/TFM",
+      skills: ["Spark", "Cassandra", "Mesos", "Kafka"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Multi-objective algorithms for the optimization of a sequence of generator matrices in topological quantum computing",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-    {
-      name: "ExtensionKit",
-      description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Project for my Bachelor thesis. It consisted of researching the state of the art for topological quantum computing and implementing a multi-objective optimization approach to try the best sequence of generator matrices for a given problem.",
+      link: "https://addi.ehu.es/bitstream/handle/10810/15879/G.Lapuente-PFG.pdf?sequence=1&isAllowed=y",
+      skills: ["Python", "Numpy", "Pandas", "Quantum Computing", "LaTeX"],
     },
   ],
   experience: [
@@ -57,9 +49,9 @@ export const siteConfig = {
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
+      company: "CrossFit Donostia",
+      title: "Software development internship",
+      dateRange: "May 2014 - July 2014",
       bullets: [
         "Developed responsive web applications for 20+ clients",
         "Improved site performance scores by 35% on average",
@@ -69,23 +61,30 @@ export const siteConfig = {
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Euskal Herriko Unibertsitatea, Spain",
+      degree: "Master in Advanced Computer Systems",
+      dateRange: "2015 - 2016",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Specialization in distributed and web systems",
+        "Got an internship in Ikerlan while doing my Master's thesis",
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "University of Oulu, Finland",
+      degree: "Information Processing Science, Computer Science",
+      dateRange: "2014",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Erasmus+ exchange program for one semester",
+      ],
+    },
+    {
+      school: "Euskal Herriko Unibertsitatea, Spain",
+      degree: "Bachelor of Applied Science (B.A.Sc.), Computer Engineering",
+      dateRange: "2011 - 2015",
+      achievements: [
+        "Specialization in software engineering",
+        "Worked for a 300h internship in CrossFit Donostia as a web developer",
+        "Finished with thesis graded as 9.0 and published in the university repository",
       ],
     },
   ],
