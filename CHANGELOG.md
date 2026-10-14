@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.0.1
+
+- Fix publication through GitHub Pages.
+
 ### 3.0.0
 
 - Use portfolio template to add my personal information.
