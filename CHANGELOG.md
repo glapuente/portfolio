@@ -1,5 +1,9 @@
 # Changelog
 
+### 3.0.0
+
+- Use portfolio template to add my personal information.
+
 ### 2.0.0
 
 - Complete rewrite of the template using Astro and Tailwind
