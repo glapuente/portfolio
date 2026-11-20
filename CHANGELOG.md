@@ -1,5 +1,10 @@
 # Changelog
 
+### 3.1.0
+
+- Add support for attaching images to projects.
+- Add `Tweet sentiment analysis` project.
+
 ### 3.0.1
 
 - Fix publication through GitHub Pages.
