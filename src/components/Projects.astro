@@ -90,6 +90,17 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                             ))}
                           </div>
                         )}
+
+                        {project.image && (
+                          <div class="overflow-hidden rounded-xl">
+                            <img
+                              src={project.image}
+                              alt={`${project.name} screenshot`}
+                              class="w-full aspect-video object-cover transition-transform duration-500 group-hover:scale-105"
+                              loading="lazy"
+                            />
+                          </div>
+                        )}
                       </div>
                     </Component>
                   </div>
