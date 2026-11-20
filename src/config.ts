@@ -13,6 +13,14 @@ export const siteConfig = {
   skills: ["Python", "PySpark", "Databricks", "Terraform"],
   projects: [
     {
+      name: "Tweet sentiment analysis",
+      description:
+        "This toy project aims to create a containerized stack for a PySpark application that consumes tweets from a Kafka topic, processes them to extract sentiment information. The project also includes a Metabase dashboard to visualize the sentiment analysis results.",
+      link: "https://github.com/glapuente/tweet_sentiment_analysis",
+      skills: ["PySpark", "Docker", "Kafka", "Metabase"],
+      image: `${import.meta.env.BASE_URL}/images/projects/metabase_example.gif`,
+    },
+    {
       name: "Multi-cloud analytics platform",
       description:
         "This was the final project of my Master's thesis in which I deployed several services in different cloud providers as a proof of concept for analyzing press data in a distributed manner. The infrastructure was managed using DevOps tooling.",
